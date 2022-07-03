@@ -24,9 +24,14 @@ const CardComponent = ({ children, bookData }: Props) => {
 	const [id, setId] = useState<string | undefined>();
 	const dispatch = useDispatch();
 
+async function asyncdispatch(dispatch:any,id:any,status:any){
+	await dispatch(updateBook({ id: id, status: status }));
+	dispatch(getBooks("books"));
+}
+
 	useEffect(() => {
-		id && dispatch(updateBook({ id: id, status: bookData.status }));
-		id && dispatch(getBooks("books"));
+		id && asyncdispatch(dispatch,id,bookData.status)
+	
 	}, [dispatch, id, bookData.status]);
 	return (
 		<div>

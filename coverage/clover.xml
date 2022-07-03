@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656587619758" clover="3.2.0">
-  <project timestamp="1656587619758" name="All files">
-    <metrics statements="160" coveredstatements="146" conditionals="30" coveredconditionals="21" methods="66" coveredmethods="55" elements="256" coveredelements="222" complexity="0" loc="160" ncloc="160" packages="26" files="27" classes="27"/>
+<coverage generated="1656846348893" clover="3.2.0">
+  <project timestamp="1656846348894" name="All files">
+    <metrics statements="175" coveredstatements="160" conditionals="28" coveredconditionals="19" methods="67" coveredmethods="56" elements="270" coveredelements="235" complexity="0" loc="175" ncloc="175" packages="26" files="27" classes="27"/>
     <package name="src">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Icons.tsx" path="/home/surinas/Assignment/Blinkist/src/Icons.tsx">
-        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="4" count="15" type="stmt"/>
         <line num="9" count="15" type="stmt"/>
         <line num="17" count="15" type="stmt"/>
@@ -16,41 +16,56 @@
         <line num="42" count="15" type="stmt"/>
         <line num="47" count="15" type="stmt"/>
         <line num="52" count="15" type="stmt"/>
-        <line num="60" count="15" type="stmt"/>
-        <line num="65" count="15" type="stmt"/>
+        <line num="59" count="15" type="stmt"/>
+        <line num="67" count="15" type="stmt"/>
+        <line num="76" count="15" type="stmt"/>
+        <line num="84" count="15" type="stmt"/>
+        <line num="93" count="15" type="stmt"/>
+        <line num="101" count="15" type="stmt"/>
+        <line num="110" count="15" type="stmt"/>
+        <line num="118" count="15" type="stmt"/>
+        <line num="126" count="15" type="stmt"/>
+        <line num="134" count="15" type="stmt"/>
+        <line num="142" count="15" type="stmt"/>
+        <line num="149" count="15" type="stmt"/>
+        <line num="155" count="15" type="stmt"/>
+        <line num="172" count="15" type="stmt"/>
+        <line num="180" count="15" type="stmt"/>
+        <line num="185" count="15" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Buttons">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Buttons.tsx" path="/home/surinas/Assignment/Blinkist/src/components/atoms/Buttons/Buttons.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="22" count="9" type="stmt"/>
-        <line num="33" count="27" type="stmt"/>
-        <line num="34" count="27" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="39" count="27" type="stmt"/>
+        <line num="40" count="27" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.NavItem">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="NavItem.tsx" path="/home/surinas/Assignment/Blinkist/src/components/atoms/NavItem/NavItem.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="16" count="13" type="stmt"/>
-        <line num="26" count="34" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+        <line num="28" count="49" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.BookCard">
-      <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <metrics statements="11" coveredstatements="10" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="5"/>
       <file name="BookCard.tsx" path="/home/surinas/Assignment/Blinkist/src/components/molecules/BookCard/BookCard.tsx">
-        <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <metrics statements="11" coveredstatements="10" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="5"/>
         <line num="23" count="6" type="stmt"/>
         <line num="24" count="5" type="stmt"/>
         <line num="25" count="5" type="stmt"/>
-        <line num="27" count="5" type="stmt"/>
-        <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="31" count="5" type="stmt"/>
-        <line num="69" count="1" type="stmt"/>
-        <line num="75" count="6" type="stmt"/>
-        <line num="76" count="4" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="80" count="6" type="stmt"/>
+        <line num="81" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.ButtonsGroup">
@@ -186,8 +201,8 @@
       <file name="BooksGroup.tsx" path="/home/surinas/Assignment/Blinkist/src/components/organisms/BooksGroup/BooksGroup.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="7" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.DropDown">
@@ -197,10 +212,10 @@
         <line num="21" count="5" type="stmt"/>
         <line num="22" count="2" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="132" count="6" type="stmt"/>
-        <line num="155" count="5" type="stmt"/>
-        <line num="156" count="2" type="stmt"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="193" count="36" type="stmt"/>
+        <line num="217" count="5" type="stmt"/>
+        <line num="218" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.Footer">
@@ -217,14 +232,14 @@
       <metrics statements="8" coveredstatements="6" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="2"/>
       <file name="Header.tsx" path="/home/surinas/Assignment/Blinkist/src/components/organisms/Header/Header.tsx">
         <metrics statements="8" coveredstatements="6" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="2"/>
-        <line num="15" count="4" type="stmt"/>
-        <line num="16" count="12" type="stmt"/>
-        <line num="17" count="8" type="stmt"/>
-        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="24" count="8" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="28" count="8" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.components.pages.BookDetailsPage">
@@ -301,12 +316,12 @@
       <file name="BooksReducer.tsx" path="/home/surinas/Assignment/Blinkist/src/reducers/BooksReducer.tsx">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="8" count="11" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="18" count="10" type="stmt"/>
         <line num="23" count="10" type="stmt"/>
         <line num="28" count="10" type="stmt"/>
-        <line num="29" count="11" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
         <line num="31" count="10" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>

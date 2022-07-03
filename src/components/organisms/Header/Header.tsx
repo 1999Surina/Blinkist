@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+
+
 import {
+	Box,
 	Link,
 	AppBar,
 	Typography,
@@ -57,6 +60,29 @@ const Header = () => {
 								<img src="/Images/logo.png" alt="logo" />
 							</Link>
 							<SearchIcon sx={{ fontSize: "20.31px", marginLeft: "43.91px" }} />
+
+
+
+							<Box
+							sx ={{
+								display:"flex",
+								flexDirection:"row",
+								alignItems:"center",
+								justifyContent:"center",
+								'&:hover': {
+									borderBottom:"2px solid #2CE080",
+
+								  },
+								  width:"80px",
+								  height:"30px",
+								  marginLeft:"25px",
+								  marginRight:"25px",
+								  cursor:"pointer"
+							}
+
+							}>
+                                
+
 							<Typography
 								variant="body1"
 								sx={{
@@ -81,6 +107,7 @@ const Header = () => {
 									<UpArrowIcon data-testid="upArrow" />
 								)}
 							</IconButton>
+							</Box>
 
 							<Link href="/" sx={{ textDecoration: "none" }}>
 								<Typography

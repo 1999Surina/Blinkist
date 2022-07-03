@@ -12,6 +12,7 @@ interface Props {
 	height?: StandardLonghandProperties<string | number, string>["height"];
 	left?: StandardLonghandProperties<string | number, string>["left"];
 	color?: Color;
+	hoverColor?:string;
 }
 const NavItem = ({
 	color,
@@ -22,6 +23,7 @@ const NavItem = ({
 	width,
 	height,
 	left,
+	hoverColor
 }: Props) => {
 	return (
 		<div
@@ -35,7 +37,9 @@ const NavItem = ({
 			<div data-testid="startIcon">{startIcon}</div>
 			<Typography
 				variant={typo}
-				sx={{ position: "relative", left: left, color: `${color}.main` }}
+				sx={{ position: "relative", left: left, color: `${color}.main` ,'&:hover': {
+					color:hoverColor
+				}}}
 			>
 				{children}
 			</Typography>

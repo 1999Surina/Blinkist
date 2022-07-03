@@ -13,7 +13,7 @@ const SideData = () => {
 				height: "120px",
 			}}
 		>
-			<img src="Images/logo.png" alt="logo" style={{ width: "99.1px" }} />
+			<img src="/Images/logo.png" alt="logo" style={{ width: "99.1px" }} />
 			<Typography variant="betaSubtitle1" sx={{ color: "#0365F2" }}>
 				Big ideas in small packages <br /> Start learning now
 			</Typography>

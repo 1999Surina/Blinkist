@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon1, Icon2, Icon3 } from "../../../Icons";
+import { Icon1, Icon2, Icon3,Icon4,Icon5,Icon6,Icon7,Icon8,Icon9,Icon10,Icon11,Icon12,Icon13,Icon14,Icon15,Icon16,Icon17,Icon18} from "../../../Icons";
 import {
 	Grid,
 	Typography,
@@ -31,8 +31,69 @@ const Content = ({ anchorEl, handleClose }: ContentProps) => {
 		},
 		{
 			icon: <Icon3 />,
+			text: "Marketing & Sales",
+		},
+		{
+			icon: <Icon4 />,
 			text: "Science",
 		},
+		{
+			icon: <Icon5 />,
+			text: "Health & Nutrition",
+		},
+		{
+			icon: <Icon6 />,
+			text: "Personal Development",
+		},
+		{
+			icon: <Icon7 />,
+			text: "Economics",
+		},
+		{
+			icon: <Icon8 />,
+			text: "History",
+		},
+		{
+			icon: <Icon9 />,
+			text: "Communication Skills",
+		},
+		{
+			icon: <Icon10 />,
+			text: "Corporate Culture",
+		},
+		{
+			icon: <Icon11 />,
+			text: "Motivation & Inspiration",
+		},
+		{
+			icon: <Icon12 />,
+			text: "Money & Investments",
+		},
+		{
+			icon: <Icon13 />,
+			text: "Psychology",
+		},
+		{
+			icon: <Icon14 />,
+			text: "Productivity",
+		},
+		{
+			icon: <Icon15 />,
+			text: "Sex & Relationship",
+		},
+		{
+			icon: <Icon16 />,
+			text: "Nature & Environment",
+		},
+		{
+			icon: <Icon17 />,
+			text: "Career & Success",
+		},
+		{
+			icon: <Icon18 />,
+			text: "Education",
+		},
+		
 	];
 	return (
 		<Menu
@@ -136,6 +197,7 @@ const Content = ({ anchorEl, handleClose }: ContentProps) => {
 											children={item.text}
 											left="12px"
 											startIcon={item.icon}
+											hoverColor='#0365F2'
 										/>
 									</Link>
 								</Grid>

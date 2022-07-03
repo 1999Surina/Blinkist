@@ -5,6 +5,7 @@ import Buttons from "../../atoms/Buttons/Buttons";
 import { AddIcon } from "../../../Icons";
 
 const allProps = {
+
 	width: "100%",
 	height: "52px",
 	children: "Add to library",
@@ -33,7 +34,7 @@ const BooksGroup = ({ title }: Props) => {
 			</Typography>
 			<BookGrid
 				children={
-					<Buttons variant="contained" {...allProps} color="secondary" />
+					<Buttons variant="contained" {...allProps} backgroundColor="white" color="#0365F2" hoverColor="#0365F2" textHoverColor="white"/>
 				}
 			/>
 		</div>
